@@ -1,0 +1,20 @@
+{
+  "name": "01-variables",
+  "version": "1.0.0",
+  "description": "Creating base code\r ```sh\r npm init -y\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
+    "start:interfaces": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js",
+    "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
+    "start:clases": "tsc Clases_Funciones/01-clases.ts --outdir dist/ && node dist/01-clases.js",
+    "start:functions": "tsc Clases_Funciones/03-Funciones.ts --outdir dist/ && node dist/03-Funciones.js",
+    "start:namespace": "tsc advanced/namespaces/namespaces.ts --outFile dist/namespace.js && node dist/namespace.js",
+    "start:namespaces": "tsc advanced/namespaces/namespaces.ts advanced/namespaces/index.ts --outFile dist/namespaces.js && node dist/namespaces.js",
+    "start:modules": "tsc advanced/modules/index.ts --outdir dist/modules.js && node dist/modules.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
